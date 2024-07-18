@@ -63,6 +63,10 @@
 }
 
 /* banner section */
+#banner-span {
+    font-family: "Playwrite HR", cursive;
+}
+
 .banner {
 
     display: flex;
@@ -158,4 +162,73 @@
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* habits-section */
+
+.habits-section {
+    position: absolute;
+    width: 1044px;
+    height: 452px;
+    left: 198px;
+    top: 770px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+
+}
+
+.habits-section h2 {
+    width: 476px;
+    height: 58px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.habits-section p {
+    width: 671px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.habits-section-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 210px;
+    margin-left: 30px;
+}
+
+
+
+.habits-section-img img {
+    border-radius: 100px;
+}
+
+.habits-section-img h6 {
+    width: 93px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.habits-section-img p {
+    width: 231px;
+    height: 36px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+
+
 }
