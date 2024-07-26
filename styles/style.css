@@ -121,6 +121,11 @@
     border: 1px solid rgb(255, 255, 255);
 }
 
+.banner-img img {
+    width: 349px;
+    height: 617px;
+}
+
 .banner-img-box-section {
 
     display: grid;
@@ -231,4 +236,52 @@
     font-weight: 400;
 
 
+}
+
+/* Extra section */
+.extra-container {
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    width: 950px;
+    margin-left: 200px;
+    margin-top: 50px;
+
+}
+
+.extra-text h3 {
+    width: 443px;
+    height: 116px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.extra-text p {
+    width: 443px;
+    height: 72px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.extra-btn {
+    width: 224px;
+    height: 54px;
+    justify-content: center;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+}
+
+.extra-img img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
