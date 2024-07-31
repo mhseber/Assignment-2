@@ -286,6 +286,7 @@
     margin-bottom: 30px;
 }
 
+/* BMI Calculator section */
 .bmi {
 
     width: 680px;
@@ -310,4 +311,121 @@
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
+}
+
+/* bmi calculate section */
+.calculate-section {
+
+    margin-top: 88px;
+    width: 1440px;
+    height: 487px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.calc-Chart {
+    margin-top: 50px;
+}
+
+.calc-box {
+    margin-top: 50px;
+}
+
+.calc-Chart h4 {
+    width: 443px;
+    height: 34px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+table {
+    border-collapse: collapse;
+    width: 310px;
+    height: 216px;
+}
+
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    width: 73px;
+    height: 17px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+th {
+    width: 30px;
+    height: 19px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.calc-text {
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.calc-text h4 {
+    width: 443px;
+    height: 34px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.calc-text p {
+    width: 577px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.calc-input select {
+    width: 177px;
+    height: 20px;
+}
+
+#factor select {
+    width: 582px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.calc-input input {
+    width: 282px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.calc-input select {
+    width: 282px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
 }
