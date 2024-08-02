@@ -429,3 +429,66 @@ th {
     color: rgba(255, 255, 255, 0.6);
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* Our team section */
+.team-text {
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+}
+
+.team-text h2 {
+    width: 364px;
+    height: 58px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.team-text p {
+    width: 671px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.team-img {
+    width: 1060px;
+    height: 704px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 6fr);
+
+
+}
+
+.img-one img {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    margin-top: 30px;
+    margin-left: 15px;
+
+
+}
+
+.img-one h2 {
+    margin-left: 120px;
+    transform: translate(-90px, -90px);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.img-one p {
+    margin-left: 120px;
+    transform: translate(-90px, -90px);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: bold;
+}
