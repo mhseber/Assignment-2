@@ -497,3 +497,80 @@ th {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* footer section */
+.footer {
+    width: 1440px;
+    height: 489px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 80px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-right: 80px;
+    padding: 30px;
+}
+
+.footer-fitness h1 {
+    width: 256px;
+    height: 84px;
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.footer-fitness p {
+    width: 443px;
+    height: 72px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-list {
+    text-decoration: none;
+}
+
+.footer-list h3 {
+    width: 181px;
+    height: 38px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.footer-list ul li {
+    list-style: none;
+    margin-top: 20px;
+    height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 33px;
+    font-weight: 800;
+}
+
+.footer-last hr {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 1059.5px;
+    height: 0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-last p {
+    width: 318px;
+    height: 24px;
+    margin-top: 40px;
+    margin-left: 500px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+
+}
