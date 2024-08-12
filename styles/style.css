@@ -140,10 +140,6 @@
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-    /* display: flex; */
-
-
-
 }
 
 .banner-boll {
@@ -286,6 +282,10 @@
     border-radius: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.my-section {
+    background-color: rgba(206, 94, 94, 0.5);
 }
 
 /* BMI Calculator section */
