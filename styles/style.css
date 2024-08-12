@@ -576,3 +576,50 @@ th {
     font-weight: 400;
 
 }
+
+/* Responsive design */
+
+@media screen and (max-width: 768px) {
+    .navbar-p {
+        display: none;
+    }
+
+    .ham-burger {
+        display: block;
+    }
+
+    .banner-text h1 {
+        font-size: 24px;
+    }
+
+    .extra-container {
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .navbar h3 {
+        font-size: 30px;
+
+    }
+
+
+    .ham-burger i {
+        font-size: 30px;
+    }
+
+    .banner {
+        display: block;
+        margin: 3rem;
+    }
+
+
+
+    .banner-text p {
+        font-size: 20px;
+    }
+
+}
